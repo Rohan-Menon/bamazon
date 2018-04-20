@@ -30,7 +30,7 @@ function displayProducts(firstRun) {
 
         results.forEach(result => {
             table.push(
-                [result.item_id, result.product_name, result.department_name, "$" + result.price, result.stock_quantity, "$" + result.product_sales]
+                [result.item_id, result.product_name, result.department_name, "$" + result.price.toFixed(2), result.stock_quantity, "$" + result.product_sales.toFixed(2)]
             );
         });
 
