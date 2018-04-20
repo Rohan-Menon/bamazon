@@ -24,3 +24,5 @@ BAMAZON Supervisor
 -view product sales by department(calculates total sales of products in a department, also calculates total profits: total sales subtracted by over head costs for the department)
 
 -add new department
+
+Demo-Movie: https://github.com/Rohan-Menon/bamazon/blob/master/bamazon-demo.mov
